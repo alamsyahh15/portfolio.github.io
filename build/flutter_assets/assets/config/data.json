@@ -1,0 +1,128 @@
+{
+    "name_dev": "Muhamad Alamsyah",
+    "position_dev": "Backend & Mobile Developer",
+    "email_dev": "muhamad.a.syah31@gmail.com",
+    "address_dev": "Jakarta Pusat",
+    "phone_dev": "+62-838-2396-0174",
+    "photo_dev": "https://raw.githubusercontent.com/alamsyahh15/assetme/master/twt_clone/seller_sample.jpg",
+    "about_dev": "Perkenalkan nama saya Muhammad Alamsyah, saat ini saya bekerja sebagai Mobile Developer di suatu perusahaan media di Jakarta Pusat. Menyukai tantangan dan hal baru, serta menerima project aplikasi berdasarkan permintaan client.",
+    "skill_dev": [
+        "HTML",
+        "Dart",
+        "Flutter",
+        "MySQL",
+        "PostgreSQL",
+        "Laravel",
+        "Codeigniter",
+        "API Google"
+    ],
+    "experience_dev": {
+        "education": [
+            {
+                "majors": "Teknik Komputer Jaringan",
+                "school_name": "SMKN 1 Jamblang",
+                "years": "2016 - 2019",
+                "desc": "Pada jenjang pendidikan SMK saya mengambil program studi Teknik Komputer Jaringan dan networking"
+            },
+            {
+                "majors": "Teknik Komputer Jaringan",
+                "school_name": "SMKN 1 Jamblang",
+                "years": "2016 - 2019",
+                "desc": "Pada jenjang pendidikan SMK saya mengambil program studi Teknik Komputer Jaringan dan networking"
+            },
+            {
+                "majors": "Teknik Komputer Jaringan",
+                "school_name": "SMKN 1 Jamblang",
+                "years": "2016 - 2019",
+                "desc": "Pada jenjang pendidikan SMK saya mengambil program studi Teknik Komputer Jaringan dan networking"
+            }
+        ],
+        "work": [
+            {
+                "company_name": "PT. Dirgantara Indonesia",
+                "position": "Magang Network Engineer",
+                "expired": "Januari 2018 - Maret 2018",
+                "jobdesk": [
+                    "Monitoring Jaringan",
+                    "Learn Pointing, Tunneling, Routing, Switching",
+                    "Backup server"
+                ]
+            },
+            {
+                "company_name": "Udacoding",
+                "position": "Mobile Developer",
+                "expired": "September 2019 - Maret 2021",
+                "jobdesk": [
+                    "Mengimplementasikan desain UI/UX ke bentuk aplikasi mobile",
+                    "Membuat Mobile Applications dengan Flutter & Dart dengan platform Android & iOS untuk produk dari perusahaan",
+                    "Membuat Restfull API dengan Laravel & Codeigniter"
+                ]
+            },
+            {
+                "company_name": "",
+                "position": "Freelance Mobile Developer",
+                "expired": "September 2019 - Sekarang",
+                "jobdesk": [
+                    "Mengimplementasikan desain UI/UX ke bentuk aplikasi mobile",
+                    "Membuat Mobile Applications dengan Flutter & Dart dengan platform Android & iOS untuk produk dari perusahaan"
+                ]
+            }
+        ]
+    },
+    "portfolio": [
+        {
+            "name_project": "SDMS I-FLIP Honda",
+            "category_project": "Mobile",
+            "desc_project": "I-FLIP --> Aplikasi FLP Honda Jatim adalah persembahan dari PT. Mitra Pinastika Mulia (MPM Distributor) selaku distributor sepeda motor Honda area Jawa Timur dan NTT. Aplikasi ini dibuat khusus untuk Honda People Area Jawa Timur dan Nusa Tenggara Timur untuk membantu Honda People mengerjakan tugas sehari-hari. Konten aplikasi ini dibagi menjadi beberapa bagian sesuai dengan divisi yang ada di MPM Distributor, yaitu Divisi Penjualan Sepeda Motor Honda, Divisi Technical Service, Divisi Spare Part dan Divisi Honda Customer Care Center. Aplikasi ini menyediakan kebutuhan Honda People dari A – Z, dari penjualan, informasi, sharing info ke konsumen, quiz, e-learning hingga e-wallet. Jadi, untuk kamu Honda People Jatim & NTT, pastikan gunakan aplikasi ini.",
+            "stack_techno": [
+                "Dart",
+                "Flutter",
+                "Android",
+                "iOS",
+                "Quiz",
+                "Role System",
+                "Push Notification",
+                "Catalogue"
+            ],
+            "link_play": "https://play.google.com/store/apps/details?id=com.mpm.flp",
+            "link_apps": null,
+            "img_url": "https://raw.githubusercontent.com/alamsyahh15/assetme/master/portfolio1.png"
+        },
+        {
+            "name_project": "RideRunner - Sabah",
+            "category_project": "Mobile",
+            "desc_project": "RideRunner is the #1st Bike-Hailing & Runner App in Sabah, Malaysia yet to be expanded nationwide soon after ‘Proof of Concept’ period finished withing the first 6-month of year 2020. \nBuild by local company in Kota Kinabalu,Sabah, this app provides transports service using motorcycle to travel or to send parcel to other destination.\n\nLet’s beat the traffic jam by using our service. Fast, reliable, safe and professional.\n\nThere are 3 fetures in this app;\n\nRidesharing : Bike Sharing/Bike Hailing or Taxi Bike service which passenger (Client) can move faster safely and beat the traffic jam.\n\nRunner Service : Send parcel or other stuff as easy as using your fingertips\n\nFeatures :\n\nEasy to choose Male of Female Rider. Female Passenger/Client can travel with ease and safe\n\nCashless - We time is very precious, we provide cashless payment to make every transaction smooth and efficient\n\nCompetitive pricing - Since we are the only Bike Hailing Company to start in Kota Kinabalu for this 6-month period, we still giving better pricing scheme. Our primary concern is YOU.",
+            "stack_techno": [
+                "Dart",
+                "Flutter",
+                "Android",
+                "iOS",
+                "Send Destination",
+                "Multiple Destination",
+                "Maps",
+                "Push Notification",
+                "RideShare"
+            ],
+            "link_play": "https://play.google.com/store/apps/details?id=my.riderunner.app_client1",
+            "link_apps": null,
+            "img_url": "https://raw.githubusercontent.com/alamsyahh15/assetme/master/portfolio2.png"
+        },
+        {
+            "name_project": "One System - Varash",
+            "category_project": "Mobile",
+            "desc_project": "Aplikasi One Apps ini membantu reseller Varash supaya semakin berkembang. Dengan aplikasi ini reseller Varash akan dipandu apa yang harus dilakukan setiap harinya sehingga mampu meningkatkan bisnis jaringannya. Semoga dengan aplikasi ini setiap reseller Varash dapat mengembangkan bisnis jaringannya",
+            "stack_techno": [
+                "Dart",
+                "Flutter",
+                "Android",
+                "iOS",
+                "Multi Level Marketing",
+                "Push Notification",
+                "Quiz"
+            ],
+            "link_play": "https://play.google.com/store/apps/details?id=varash.com.varash_bali",
+            "link_apps": null,
+            "img_url": "https://raw.githubusercontent.com/alamsyahh15/assetme/master/portfolio4.png"
+        }
+    ]
+}
