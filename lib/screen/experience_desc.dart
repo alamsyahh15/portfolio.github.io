@@ -78,7 +78,10 @@ class ExperienceDescription extends StatelessWidget {
                                         }(),
                                         fontWeight: FontWeight.bold),
                                     children: [
-                                      TextSpan(text: "${e.majors} "),
+                                      TextSpan(
+                                          text: "${e.majors} ",
+                                          style:
+                                              TextStyle(color: Colors.black)),
                                       TextSpan(
                                         text: "${e.schoolName}",
                                         style: TextStyle(color: Colors.pink),
@@ -143,7 +146,10 @@ class ExperienceDescription extends StatelessWidget {
                                         }(),
                                         fontWeight: FontWeight.bold),
                                     children: [
-                                      TextSpan(text: "${work.position} "),
+                                      TextSpan(
+                                          text: "${work.position} ",
+                                          style:
+                                              TextStyle(color: Colors.black)),
                                       TextSpan(
                                         text: "${work.companyName}",
                                         style: TextStyle(color: Colors.pink),

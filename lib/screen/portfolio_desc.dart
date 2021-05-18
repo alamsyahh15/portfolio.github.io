@@ -134,13 +134,18 @@ class _PortfolioDescriptionState extends State<PortfolioDescription>
                         },
                         child: Card(
                           child: Stack(
+                            fit: StackFit.expand,
+                            alignment: Alignment.center,
                             children: [
                               Container(
-                                width: 500,
-                                height: 250,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
                                 child: Image.network(
                                   data.imgUrl,
                                   fit: BoxFit.fill,
+                                  width: 500,
+                                  height: 200,
                                 ),
                               ),
                               Visibility(

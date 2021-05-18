@@ -5,6 +5,7 @@ import 'package:portfolio_web/model/developer_model.dart';
 import 'package:portfolio_web/screen/personal_desc.dart';
 import 'package:portfolio_web/screen/widget/drawer_navbar.dart';
 import 'package:portfolio_web/screen/widget/navbar.dart';
+import 'package:portfolio_web/utils/constant.dart';
 import 'about_desc.dart';
 import 'contact_desc.dart';
 import 'experience_desc.dart';
@@ -58,49 +59,54 @@ class _HomePageState extends State<HomePage> {
       key: scKey,
       body: isLoading
           ? Center(child: CircularProgressIndicator())
-          : Container(
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    Color.fromRGBO(195, 20, 50, 1.0),
-                    Color.fromRGBO(35, 11, 54, 1.0),
-                  ],
-                  begin: Alignment.centerLeft,
-                  end: Alignment.centerRight,
-                ),
-                image: new DecorationImage(
+          : Stack(
+              children: [
+                Image.asset(
+                  'assets/bg_image.jpg',
                   fit: BoxFit.cover,
-                  colorFilter: new ColorFilter.mode(
-                      Colors.black.withOpacity(0.1), BlendMode.dstATop),
-                  image: AssetImage(
-                    'assets/bg_image.jpg',
-                  ),
+                  width: widthScreen(context),
+                  height: heightScreen(context),
                 ),
-              ),
-              child: Column(
-                children: [
-                  Navbar(),
-                  SizedBox(height: 20),
-                  Expanded(
-                    child: SingleChildScrollView(
-                      physics: BouncingScrollPhysics(),
-                      child: Column(
-                        children: [
-                          Container(key: homeKey, child: PersonalDescription()),
-                          Container(key: aboutKey, child: AboutDescription()),
-                          Container(
-                              key: experienceKey,
-                              child: ExperienceDescription()),
-                          Container(
-                              key: portfolioKey, child: PortfolioDescription()),
-                          Container(
-                              key: contactKey, child: ContactDescription()),
-                        ],
-                      ),
+                Container(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      colors: [
+                        Color.fromRGBO(195, 20, 50, 0.85),
+                        Color.fromRGBO(35, 11, 54, 0.85),
+                      ],
+                      begin: Alignment.centerLeft,
+                      end: Alignment.centerRight,
                     ),
                   ),
-                ],
-              ),
+                  child: Column(
+                    children: [
+                      Navbar(),
+                      SizedBox(height: 20),
+                      Expanded(
+                        child: SingleChildScrollView(
+                          physics: BouncingScrollPhysics(),
+                          child: Column(
+                            children: [
+                              Container(
+                                  key: homeKey, child: PersonalDescription()),
+                              Container(
+                                  key: aboutKey, child: AboutDescription()),
+                              Container(
+                                  key: experienceKey,
+                                  child: ExperienceDescription()),
+                              Container(
+                                  key: portfolioKey,
+                                  child: PortfolioDescription()),
+                              Container(
+                                  key: contactKey, child: ContactDescription()),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
             ),
     );
   }
