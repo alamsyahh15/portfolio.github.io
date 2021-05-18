@@ -3,7 +3,7 @@
 [![Fork](https://img.shields.io/github/forks/alamsyahh15/portfolio.github.io?style=social)](https://github.com/alamsyahh15/portfolio.github.io/fork)&nbsp; [![Star](https://img.shields.io/github/stars/alamsyahh15/portfolio.github.io?style=social)](https://github.com/alamsyahh15/portfolio.github.io/star)&nbsp; [![Watches](https://img.shields.io/github/watchers/alamsyahh15/portfolio.github.io?style=social)](https://github.com/alamsyahh15/portfolio.github.io/)&nbsp;
 
 
-<p><img  src="hhttps://i.ibb.co/zSD01Q2/Screenshot-2021-05-18-15-34-52.png"/></p>
+<p><img  src="https://i.ibb.co/zSD01Q2/Screenshot-2021-05-18-15-34-52.png"/></p>
 
 <p><img  src="https://i.ibb.co/PtXnpp6/Screenshot-2021-05-18-15-35-10.png"/></p>
 
