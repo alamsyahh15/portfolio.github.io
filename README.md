@@ -1,4 +1,33 @@
-# portfolio_web
+# Portfolio Web With Flutter
+
+[![Fork](https://img.shields.io/github/forks/alamsyahh15/portfolio.github.io?style=social)](https://github.com/alamsyahh15/portfolio.github.io/fork)&nbsp; [![Star](https://img.shields.io/github/stars/alamsyahh15/portfolio.github.io?style=social)](https://github.com/alamsyahh15/portfolio.github.io/star)&nbsp; [![Watches](https://img.shields.io/github/watchers/alamsyahh15/portfolio.github.io?style=social)](https://github.com/alamsyahh15/portfolio.github.io/)&nbsp;
+
+
+<p><img  src="hhttps://i.ibb.co/zSD01Q2/Screenshot-2021-05-18-15-34-52.png"/></p>
+<p><img  src="https://i.ibb.co/PtXnpp6/Screenshot-2021-05-18-15-35-10.png"/></p>
+
+Portfolio Web ini adalah web template portfolio untuk umum bersifat open source yang dibuat dengan menggunakan bahasa dart dan framework flutter dengan flutter version 2.0.
+
+### Apps Feature:
+
+ - Home Dashboard
+ - Tentang Page
+ - Pengalaman Page
+ - Portfolio Page
+ - Contact (Coming Soon)
+ - Json Data Local
+ 
+
+### Cloning Setup 
+ 1. git clone https://github.com/alamsyahh15/portfolio.github.io.git
+ 2. flutter packages get
+ 3. flutter run
+ 4. Happy coding!
+
+### Inspiration
+- Design UI/UX: https://leeyurani.com/
+- Sites Learning: https://www.youtube.com/watch?v=rpkKYQCioW0
+
 
 A new Flutter project.
 
