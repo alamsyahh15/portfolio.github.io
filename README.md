@@ -24,9 +24,9 @@ Portfolio Web ini adalah web template portfolio untuk umum bersifat open source 
 
 ### Cloning Setup 
  1. git clone https://github.com/alamsyahh15/portfolio.github.io.git
- 2. flutter packages get
- 3. flutter run
- 4. Happy coding!
+ 2. flutter pub get
+ 3. flutter run -d chrome
+ 4. Bebas Editing
 
 ### Inspiration
 - Design UI/UX: https://leeyurani.com/
